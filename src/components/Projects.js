@@ -1,9 +1,10 @@
 import React from 'react'
+import Card from './Card'
 
 function Projects() {
     return (
         <div className="projects">
-            hi
+            <Card />
         </div>
     )
 }
