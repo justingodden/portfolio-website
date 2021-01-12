@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.5c7dbfae.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.8d24e710.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.8d24e710.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.393dcd7c.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.393dcd7c.js.map",
+    "static/js/2.5ee58f7a.chunk.js": "/portfolio-website/static/js/2.5ee58f7a.chunk.js",
+    "static/js/2.5ee58f7a.chunk.js.map": "/portfolio-website/static/js/2.5ee58f7a.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "static/css/main.5c7dbfae.chunk.css.map": "/portfolio-website/static/css/main.5c7dbfae.chunk.css.map",
+    "static/js/2.5ee58f7a.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.5ee58f7a.chunk.js.LICENSE.txt",
+    "static/media/carpricing-mobile.b900445f.gif": "/portfolio-website/static/media/carpricing-mobile.b900445f.gif",
+    "static/media/guitar.15445309.jpg": "/portfolio-website/static/media/guitar.15445309.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.393dcd7c.js",
+    "static/js/2.5ee58f7a.chunk.js",
+    "static/css/main.5c7dbfae.chunk.css",
+    "static/js/main.8d24e710.chunk.js"
+  ]
+}
