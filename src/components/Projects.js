@@ -15,6 +15,12 @@ function Projects() {
                 <Card setShowModal={setShowModal}/>
                 <Card setShowModal={setShowModal}/>
                 <Card setShowModal={setShowModal}/>
+                <Card setShowModal={setShowModal}/>
+                <Card setShowModal={setShowModal}/>
+                <Card setShowModal={setShowModal}/>
+                <Card setShowModal={setShowModal}/>
+                <Card setShowModal={setShowModal}/>
+                
             </div>
         </>
     )

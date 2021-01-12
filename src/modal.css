@@ -67,17 +67,3 @@
   overflow-y: scroll;
   padding: 0 5px 0 5px;
 }
-
-*::-webkit-scrollbar {
-  width: 12px;
-}
-
-*::-webkit-scrollbar-track {
-  background: rgb(31, 30, 36);
-  border-radius: 20px;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #757de8;
-  border-radius: 20px;
-}

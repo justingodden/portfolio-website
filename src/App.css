@@ -2,10 +2,26 @@
   font-family: "Roboto", sans-serif;
   color: rgb(194, 193, 255);
 }
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(31, 30, 36);
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #757de8;
+  border-radius: 20px;
+}
+
 .app {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   min-height: 400px;
 }
 
@@ -79,9 +95,10 @@
   align-items: center;
   height: 100vh;
   min-height: 600px;
+  max-width: 1000px;
 }
 
 .topSpace {
   top: 0;
-  height: 60px;
+  height: 100px;
 }
