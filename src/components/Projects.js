@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Card from './Card'
+import Modal from './Modal'
 
 function Projects() {
+    const [showModal, setShowModal] = useState(true)
+
     return (
-        <div className="projects">
-            <Card />
-        </div>
+        <>
+            {
+                showModal && <Modal />
+            }
+            <div className="projects">
+                <Card />
+            </div>
+        </>
     )
 }
 
