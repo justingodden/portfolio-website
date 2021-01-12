@@ -9,7 +9,8 @@ import VisibilitySharpIcon from '@material-ui/icons/VisibilitySharp';
 import Chip from '@material-ui/core/Chip';
 
 
-function Card() {
+function Card( { setShowModal }) {
+
     return (
         <div className="card">
             <div className="cardHeader">
@@ -18,25 +19,20 @@ function Card() {
             <div className="cardImage">
             <img src={image} alt="" width="300" height="200"></img>
             </div>
-            <div className="cardChip">
+            <div className="cardChips">
                 <Chip size="small" color="primary" label="React" />
             </div>
             <div className="cardDescription">
                 <p>This is a description of the project. It could be a whole paragraph long!</p>
             </div>
             <div className="cardButtons">
-                <Button className="button" variant="outlined" color="primary" size="small">
-                <IconButton>
-                <MenuBookSharpIcon />
-            </IconButton>Jupyter
-                </Button>
-                <Button className="button" variant="outlined" color="primary" size="small">
+                <Button variant="outlined" color="primary" size="small" fullWidth={true}>
                     <IconButton>
                         <GitHubIcon />
                     </IconButton>
                     GitHub
                 </Button>
-                <Button className="button" variant="contained" color="primary" size="small">
+                <Button variant="contained" color="primary" size="small" fullWidth={true} onClick={() => setShowModal(true)}>
                     <IconButton>
                         <VisibilitySharpIcon />
                     </IconButton>

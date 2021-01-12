@@ -74,9 +74,14 @@
 
 .projects {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   height: 100vh;
   min-height: 600px;
+}
+
+.topSpace {
+  top: 0;
+  height: 60px;
 }

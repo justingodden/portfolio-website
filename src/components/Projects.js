@@ -3,15 +3,18 @@ import Card from './Card'
 import Modal from './Modal'
 
 function Projects() {
-    const [showModal, setShowModal] = useState(true)
+    const [showModal, setShowModal] = useState(false)
 
     return (
         <>
             {
-                showModal && <Modal />
+                showModal && <Modal setShowModal={setShowModal}/>
             }
+            <div className="topSpace"></div>
             <div className="projects">
-                <Card />
+                <Card setShowModal={setShowModal}/>
+                <Card setShowModal={setShowModal}/>
+                <Card setShowModal={setShowModal}/>
             </div>
         </>
     )

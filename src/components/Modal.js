@@ -1,22 +1,41 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import '../modal.css'
+import carpricing from "../images/carpricing-mobile.gif"
+import Chip from '@material-ui/core/Chip';
+import IconButton from '@material-ui/core/IconButton';
+import VisibilitySharpIcon from '@material-ui/icons/VisibilitySharp';
+import Button from '@material-ui/core/Button';
+import CloseIcon from '@material-ui/icons/Close';
 
-function Modal() {
+
+
+function Modal({ setShowModal }) {
+
     return (
         <div className="backdrop">
             <div className="modal">
-                <div className="modalImgContainer">
-                    <img className="modalImg"></img>
-                </div>
+                <img className="modalImg"src={carpricing} alt="" width="auto" height="100%"></img>
                 <div className="modalContent">
-                    <h2>Project Title</h2>
+                    <div className="modalClose">
+                        <IconButton size="small" onClick={() => setShowModal(false)}>
+                            <CloseIcon />
+                        </IconButton>
+                    </div>
+                    <h2 className="modalTitle">Project Title</h2>
                     <div className="modalContentChips">
-
+                        <Chip size="small" color="primary" label="React" />
+                        <Chip size="small" color="primary" label="JS" />
                     </div>
-                    <div className="modalContentText">
-                        Words about the project
+                    <p className="modalContentText">Words about the project Words about the project Words about the project Words about the project Words about the project Words about the project Words about the project
+                        Words about the project Words about the project Words about the project Words about the proj
+                    </p>
+                    <div className="modalContentButtons">
+                    <Button className="button" variant="contained" color="primary" size="small">
+                        <IconButton>
+                            <VisibilitySharpIcon />
+                        </IconButton>View Website
+                    </Button>
                     </div>
-                    <div className="modalContentButtons"></div>
                 </div>
             </div>
         </div>
