@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.5c7dbfae.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.8d24e710.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.8d24e710.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.bf087196.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.5c5a8ff5.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.5c5a8ff5.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.393dcd7c.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.393dcd7c.js.map",
-    "static/js/2.5ee58f7a.chunk.js": "/portfolio-website/static/js/2.5ee58f7a.chunk.js",
-    "static/js/2.5ee58f7a.chunk.js.map": "/portfolio-website/static/js/2.5ee58f7a.chunk.js.map",
+    "static/js/2.694f2bf7.chunk.js": "/portfolio-website/static/js/2.694f2bf7.chunk.js",
+    "static/js/2.694f2bf7.chunk.js.map": "/portfolio-website/static/js/2.694f2bf7.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "static/css/main.5c7dbfae.chunk.css.map": "/portfolio-website/static/css/main.5c7dbfae.chunk.css.map",
-    "static/js/2.5ee58f7a.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.5ee58f7a.chunk.js.LICENSE.txt",
-    "static/media/carpricing-mobile.b900445f.gif": "/portfolio-website/static/media/carpricing-mobile.b900445f.gif",
-    "static/media/guitar.15445309.jpg": "/portfolio-website/static/media/guitar.15445309.jpg"
+    "static/css/main.bf087196.chunk.css.map": "/portfolio-website/static/css/main.bf087196.chunk.css.map",
+    "static/js/2.694f2bf7.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.694f2bf7.chunk.js.LICENSE.txt",
+    "static/media/car-card.png": "/portfolio-website/static/media/car-card.c7e298ff.png",
+    "static/media/car-display.gif": "/portfolio-website/static/media/car-display.b900445f.gif",
+    "static/media/car-logo.svg": "/portfolio-website/static/media/car-logo.b9350b7f.svg",
+    "static/media/guitar.jpg": "/portfolio-website/static/media/guitar.15445309.jpg",
+    "static/media/portfolio-card.png": "/portfolio-website/static/media/portfolio-card.d84d63ef.png",
+    "static/media/sentient-1080.gif": "/portfolio-website/static/media/sentient-1080.c375150d.gif",
+    "static/media/sentient-background.jpg": "/portfolio-website/static/media/sentient-background.e2086f3b.jpg",
+    "static/media/sentient-card.png": "/portfolio-website/static/media/sentient-card.8c85b278.png",
+    "static/media/sentient-display.gif": "/portfolio-website/static/media/sentient-display.d0579043.gif",
+    "static/media/sentient-logo.svg": "/portfolio-website/static/media/sentient-logo.15f2bfe4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.393dcd7c.js",
-    "static/js/2.5ee58f7a.chunk.js",
-    "static/css/main.5c7dbfae.chunk.css",
-    "static/js/main.8d24e710.chunk.js"
+    "static/js/2.694f2bf7.chunk.js",
+    "static/css/main.bf087196.chunk.css",
+    "static/js/main.5c5a8ff5.chunk.js"
   ]
 }
