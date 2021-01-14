@@ -4,15 +4,34 @@ import logo from '../images/sentient-logo.svg'
 
 function Temp() {
     return (
-        <div style={{height: '200px', width: '300px'}}>
-            <img src={bg} alt="" width="300" height="200"></img>
-            <img className="navLogo" style={{
-                height:"50px", position: 'relative', top: '-130px', right: '-30px'
+        <div style={{
+            height: '200px', 
+            width: '300px', 
+            background: 'linear-gradient(45deg, rgb(31, 30, 36), rgb(41, 40, 46))'
+            }}>
+            <div style={{
+                position: 'relative',
+                top: '-28px',
+                right: '-75px',
+            height: '150px', 
+            width: '150px', 
+            background: 'linear-gradient(45deg, rgb(41, 40, 46), rgb(31, 30, 36))',
+            borderRadius: '50%'
             }}
-            src={require('../images/sentient-logo.svg').default} alt=''/>
-            <h2 style={{
-                position: 'relative', top: '-210px', right: '-110px', color: 'black', fontSize: '38px'
-            }}>Sentient</h2>
+                >
+            <h2
+                style={{
+                    position: 'relative',
+                top: '27snpx',
+                right: '-47px',
+                    color: '#757de8',
+                    fontFamily: 'Crimson Text',
+                    fontSize: '64px'
+                }}
+            
+            >JG</h2>
+            </div>
+            
 
             
         </div>
@@ -20,3 +39,10 @@ function Temp() {
 }
 
 export default Temp
+
+
+// font-family: "Crimson Text", serif;
+//   font-size: 32px;
+  /* color: #1c85e8; */
+  /* color: #3f51b5; */
+//   color: #757de8;
