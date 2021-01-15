@@ -73,24 +73,18 @@
 }
 
 @media only screen and (max-width: 620px) {
-  .backdrop {
-    height: 100vh;
+  .modalImg {
+    display: none;
   }
+}
 
+@media only screen and (max-width: 460px) {
   .modal {
-    /* flex-direction: column; */
-    /* position: absolute; */
-    /* height: auto; */
+    width: 90%;
   }
 
   .modalContainer {
-    min-height: none;
-    height: 100%;
-  }
-
-  .modalImg {
-    display: none;
-    height: 500px;
-    object-fit: contain;
+    /* min-height: none; */
+    width: auto;
   }
 }
