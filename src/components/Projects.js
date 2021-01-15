@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Card from './Card'
 import Modal from './Modal'
-import ProjectData from './ProjectData'
+import projectData from './projectData'
 
 function Projects() {
     const [showModal, setShowModal] = useState(false)
@@ -18,7 +18,7 @@ function Projects() {
             <div className="topSpace"></div>
             <div className="projects">
                 {
-                    ProjectData.map((project, i) => (
+                    projectData.map((project, i) => (
                         <Card
                             key={i}
                             id={i}
