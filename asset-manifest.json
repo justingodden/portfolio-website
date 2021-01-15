@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.bf087196.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.5c5a8ff5.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.5c5a8ff5.chunk.js.map",
+    "main.css": "/portfolio-website/static/css/main.b9b3bdf9.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.87dba240.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.87dba240.chunk.js.map",
     "runtime-main.js": "/portfolio-website/static/js/runtime-main.393dcd7c.js",
     "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.393dcd7c.js.map",
-    "static/js/2.694f2bf7.chunk.js": "/portfolio-website/static/js/2.694f2bf7.chunk.js",
-    "static/js/2.694f2bf7.chunk.js.map": "/portfolio-website/static/js/2.694f2bf7.chunk.js.map",
+    "static/js/2.3e0ed8bb.chunk.js": "/portfolio-website/static/js/2.3e0ed8bb.chunk.js",
+    "static/js/2.3e0ed8bb.chunk.js.map": "/portfolio-website/static/js/2.3e0ed8bb.chunk.js.map",
     "index.html": "/portfolio-website/index.html",
-    "static/css/main.bf087196.chunk.css.map": "/portfolio-website/static/css/main.bf087196.chunk.css.map",
-    "static/js/2.694f2bf7.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.694f2bf7.chunk.js.LICENSE.txt",
+    "static/css/main.b9b3bdf9.chunk.css.map": "/portfolio-website/static/css/main.b9b3bdf9.chunk.css.map",
+    "static/js/2.3e0ed8bb.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.3e0ed8bb.chunk.js.LICENSE.txt",
     "static/media/car-card.png": "/portfolio-website/static/media/car-card.c7e298ff.png",
     "static/media/car-display.gif": "/portfolio-website/static/media/car-display.b900445f.gif",
     "static/media/car-logo.svg": "/portfolio-website/static/media/car-logo.b9350b7f.svg",
-    "static/media/guitar.jpg": "/portfolio-website/static/media/guitar.15445309.jpg",
     "static/media/portfolio-card.png": "/portfolio-website/static/media/portfolio-card.d84d63ef.png",
-    "static/media/sentient-1080.gif": "/portfolio-website/static/media/sentient-1080.c375150d.gif",
+    "static/media/portfolio-display.gif": "/portfolio-website/static/media/portfolio-display.82fe43c4.gif",
     "static/media/sentient-background.jpg": "/portfolio-website/static/media/sentient-background.e2086f3b.jpg",
     "static/media/sentient-card.png": "/portfolio-website/static/media/sentient-card.8c85b278.png",
     "static/media/sentient-display.gif": "/portfolio-website/static/media/sentient-display.d0579043.gif",
@@ -23,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.393dcd7c.js",
-    "static/js/2.694f2bf7.chunk.js",
-    "static/css/main.bf087196.chunk.css",
-    "static/js/main.5c5a8ff5.chunk.js"
+    "static/js/2.3e0ed8bb.chunk.js",
+    "static/css/main.b9b3bdf9.chunk.css",
+    "static/js/main.87dba240.chunk.js"
   ]
 }
