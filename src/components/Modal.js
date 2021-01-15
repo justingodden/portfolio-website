@@ -24,7 +24,10 @@ function Modal({ setShowModal, modalNum }) {
                     <div className="modalContentChips">
                         {
                             projectData[modalNum].chips.map((chip) => (
-                                <Chip size="small" color="primary" label={chip} />
+                                <Chip
+                                    key={chip}
+                                    className="cardChip"
+                                    size="small" color="primary" label={chip} />
                             ))
                         }
                     </div>

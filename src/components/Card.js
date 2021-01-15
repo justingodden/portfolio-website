@@ -24,7 +24,7 @@ function Card( { id, title, img, chips, shortDescription, github, setShowModal, 
             <div className="cardChips">
                 {
                     chips.map((chip) => (
-                        <Chip className="cardChip" size="small" color="primary" label={chip} />
+                        <Chip key={chip} className="cardChip" size="small" color="primary" label={chip} />
                     ))
                 }
             </div>

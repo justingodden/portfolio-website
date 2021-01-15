@@ -1,4 +1,4 @@
-export default [
+const projectData = [
     {
         id: 0,
         title: 'Sentient',
@@ -43,3 +43,5 @@ export default [
         website: '#'
     }
 ]
+
+export default projectData
