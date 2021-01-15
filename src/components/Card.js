@@ -1,7 +1,6 @@
 import React from 'react'
 import '../card.css';
 import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import VisibilitySharpIcon from '@material-ui/icons/VisibilitySharp';
 import Chip from '@material-ui/core/Chip';
@@ -11,7 +10,6 @@ function Card( { id, title, img, chips, shortDescription, github, setShowModal, 
 
     function onClick() {
         setModalNum(id)
-        console.log(modalNum)
         setShowModal(true)
     }
 
