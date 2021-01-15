@@ -1,4 +1,4 @@
-const projectData = [
+export const projectData = [
     {
         id: 0,
         title: 'Sentient',
@@ -44,4 +44,6 @@ const projectData = [
     }
 ]
 
-export default projectData
+export default {
+    projectData,
+}

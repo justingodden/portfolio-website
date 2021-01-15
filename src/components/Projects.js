@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Card from './Card'
 import Modal from './Modal'
-import projectData from '../data/projectData.js'
+import { projectData } from '../data/ProjectData'
 
 function Projects() {
     const [showModal, setShowModal] = useState(false)

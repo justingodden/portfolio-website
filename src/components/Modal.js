@@ -5,7 +5,7 @@ import IconButton from '@material-ui/core/IconButton';
 import VisibilitySharpIcon from '@material-ui/icons/VisibilitySharp';
 import Button from '@material-ui/core/Button';
 import CloseIcon from '@material-ui/icons/Close';
-import projectData from '../data/projectData.js'
+import { projectData } from '../data/ProjectData'
 
 
 function Modal({ setShowModal, modalNum }) {
