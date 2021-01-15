@@ -36,7 +36,7 @@ export default [
         title: 'JG Portfolio Website',
         img: 'portfolio-card.png',
         imgDisplay: 'portfolio-display.gif',
-        chips: ['JavaScript', 'React', 'Material-ui', 'HTML', 'CSS', 'Responsive'],
+        chips: ['JavaScript', 'React', 'Material-ui', 'React-Router', 'HTML', 'CSS', 'Responsive'],
         shortDescription: 'Personal portfolio website built to showcase projects',
         longDescription: `Simple, clean person portfolio built using React and Material-ui to act as a hub for all of my person projects, with scope to expand to other features such as incorporating a blog.`,
         github: 'https://github.com/justingodden/portfolio-website',

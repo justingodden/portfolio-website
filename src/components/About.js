@@ -1,9 +1,12 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
+import { useHistory } from 'react-router-dom';
 // import Temp from './Temp'
 
 
-function About({ projects, setProjects }) {
+function About() {
+    let history = useHistory()
+
     return (
         <div className="about">
             {/* <Temp/> */}
@@ -12,7 +15,7 @@ function About({ projects, setProjects }) {
             <h2 className="aboutH2">I'm a Data Scientist working in London.</h2>
             <h2 className="aboutH2">Check out my projects below!</h2>
             <p></p>
-            <Button className="button" variant="contained" color="primary" onClick={() => setProjects(true)}>
+            <Button className="button" variant="contained" color="primary" onClick={() => history.push('/projects')}>
                 Projects
             </Button>
         </div>

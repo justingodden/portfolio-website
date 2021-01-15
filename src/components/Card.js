@@ -26,7 +26,7 @@ function Card( { id, title, img, chips, shortDescription, github, setShowModal, 
             <div className="cardChips">
                 {
                     chips.map((chip) => (
-                        <Chip size="small" color="primary" label={chip} />
+                        <Chip className="cardChip" size="small" color="primary" label={chip} />
                     ))
                 }
             </div>
@@ -34,16 +34,23 @@ function Card( { id, title, img, chips, shortDescription, github, setShowModal, 
                 <p>{shortDescription}</p>
             </div>
             <div className="cardButtons">
-                <Button variant="outlined" color="primary" size="small" fullWidth={true} href={github} target="_blank">
-                    <IconButton>
-                        <GitHubIcon />
-                    </IconButton>
+                <Button
+                    variant="outlined"
+                    color="primary"
+                    fullWidth={true}
+                    href={github}
+                    target="_blank"
+                >
+                    <GitHubIcon className ="icon" />
                     GitHub
                 </Button>
-                <Button variant="contained" color="primary" size="small" fullWidth={true} onClick={onClick}>
-                    <IconButton>
-                        <VisibilitySharpIcon />
-                    </IconButton>
+                <Button
+                    variant="contained"
+                    color="primary"
+                    fullWidth={true}
+                    onClick={onClick}
+                >
+                    <VisibilitySharpIcon className ="icon" />
                     View
                 </Button>
             </div>

@@ -31,10 +31,15 @@ function Modal({ setShowModal, modalNum }) {
                     <p className="modalContentText">{projectData[modalNum].longDescription}
                     </p>
                     <div className="modalContentButtons">
-                    <Button className="button" variant="contained" color="primary" size="small">
-                        <IconButton>
-                            <VisibilitySharpIcon />
-                        </IconButton>View Website
+                    <Button
+                        className="button"
+                        variant="contained"
+                        color="primary"
+                        href={projectData[modalNum].website}
+                        target="_blank"
+                    >
+                        <VisibilitySharpIcon className ="icon" />
+                        View Website
                     </Button>
                     </div>
                 </div>
